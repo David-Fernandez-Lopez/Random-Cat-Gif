@@ -73,7 +73,11 @@ const HomePage = () => {
 
                         <div>
 
-                            <Button variant="dark" onClick={loadData}>Get new fact</Button>
+                            <Button
+                                variant="warning"
+                                onClick={loadData}>
+                                Get new fact
+                            </Button>
                             
                         </div>
                         

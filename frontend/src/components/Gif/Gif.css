@@ -1,24 +1,37 @@
 
-.gif{
+.gif {
+
     display: flex;
     align-items: center;
 }
 
-.image{
+.imgContainer {
+
+    height: 40vh;
+    width: 100%;
+}
+
+.image {
 
     width: 100%;
-    height: 100px !important;
-    object-fit: cover;
-    /* overflow: unset !important; */
+    height: 40vh;
+    object-fit: cover !important;
+    border-radius: 20px;
+    border: solid 2px rgba(255, 255, 255, 0.90)
 }
 
-.imgContainer{
-    width: 500px;
-    height: 200px;
-    margin: 4px;
-    padding: 5px;
-    border: 4px solid white ;
-    object-fit: cover;
+.imageNotFound {
 
+    display: flex;
+    color: #9b0000;
+    font-weight: 800;
+    background: #ffffff7a;
+    padding: 20px;
+    border-radius: 20px;
+    width: 100%;
+    vertical-align: middle;
 }
 
+.margin0 {
+    margin: 0 auto;
+}

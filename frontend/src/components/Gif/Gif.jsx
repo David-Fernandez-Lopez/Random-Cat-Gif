@@ -1,18 +1,29 @@
 
+import './Gif.css'
 import {Image, Col} from "react-bootstrap"
 
 
 const Gif = ({url}) => {
 
 
+    
     console.log(url)
     return (
        
-        <Col className="gif" md={{ span: 4, offset: 1 }}>
+        <Col md={{ span: 4, offset: 1 }}>
             
-            <div className="imgContainer">
+            <div className="imgContainer gif" >
+                {!url
+                    ?
+                    <div className='imageNotFound'>
 
-                <Image className="image rounded fluid" src={url} />
+                        <p className='margin0'>Image not found</p>
+
+                    </div>
+                    :
+                    <Image className="image fluid" src={url} />
+                }
+                
 
             </div>
             

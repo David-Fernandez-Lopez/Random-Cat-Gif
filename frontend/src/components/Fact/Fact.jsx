@@ -11,7 +11,7 @@ const Fact = ({fact}) => {
             
             <div className='factContainer'>
 
-                <p>{fact}</p>
+                <p className='margin0'>{fact}</p>
 
             </div>
             
