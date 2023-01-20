@@ -1,0 +1,18 @@
+
+
+
+.welcome {
+    text-shadow: 0px 0px 1px #ffffff;
+    background: #ffffff7a;
+    padding: 20px;
+    border-radius: 20px;
+    
+}
+
+.introduction {
+    text-shadow: 0px 0px 1px #ffffff;
+    background: #ffffff7a;
+    padding: 20px;
+    border-bottom-left-radius: 20px 20px;
+    border-bottom-right-radius: 20px 20px;    
+}

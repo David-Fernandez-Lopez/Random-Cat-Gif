@@ -1,0 +1,14 @@
+
+.fact {
+
+    display: flex;
+    align-items: center;
+}
+
+.factContainer {
+
+    text-shadow: 0px 0px 1px #ffffff;
+    background: #ffffff7a;
+    padding: 20px;
+    border-radius: 20px;
+}
